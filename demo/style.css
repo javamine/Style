@@ -28,3 +28,17 @@ header h1{
 	border-top-right-radius: 10px;
 	border-top-left-radius: 10px;
 }
+.con .image{
+	border-radius: 5px;
+	width: 940px;
+	margin: 0 auto;
+	border: 1px solid #000;
+	height: 500px;
+	background: #fff;
+	margin-top: 20px;
+}
+.con .image img{
+	padding: 10px;
+	width: 920px;
+	height: 480px;
+}
