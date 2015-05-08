@@ -19,6 +19,7 @@
          i. 添加写权限：Settings --> Collaborators --> confire password --> add collaborator
         ii. 开新分支（pull request的前提）
         iii. 不断实现新的功能，做成一个个新的版本
+        iv. 发起“拉取请求”（Pull Request）--> 同步之前确保都已经同步
         vi. 讨论，代码审核的过程
         vii. 分支内容合并到master
 
