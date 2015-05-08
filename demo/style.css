@@ -28,3 +28,11 @@ header h1{
 	border-top-right-radius: 10px;
 	border-top-left-radius: 10px;
 }
+.footer{
+	width: 960px;
+	margin: 0 auto;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	text-align: center;
+}
