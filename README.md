@@ -9,4 +9,4 @@
 	git reset --hard 3558d73
 
 建立一个里程碑
-	
+	在github首页点击release ---> create --> 填写版本号（Tag Vision）--> release title --> describe this release
