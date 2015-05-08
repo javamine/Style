@@ -1,4 +1,3 @@
-# Mario
 ﻿# Mario
   这是一个用java重写马里奥（超级玛丽的游戏），此项目仅用于自己学习。
 在github上有冲突怎么解决：
@@ -9,3 +8,5 @@
 	git reflog
 	git reset --hard 3558d73
 
+建立一个里程碑
+	
