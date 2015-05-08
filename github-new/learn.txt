@@ -14,3 +14,7 @@
       3) 合并远端分支(github上有修改，本地也有修改)
           --> Sync (变基“rebase”)
           --> 把远端的分支拉到本地，与本地的分支合并
+    d. 团队协作工作流
+      1）团队内部的合作、
+        i. 添加写权限：Settings --> Collaborators --> confire password --> add collaborator
+        ii. 开新分支（pull request的前提）
