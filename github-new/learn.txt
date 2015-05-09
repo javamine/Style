@@ -22,4 +22,19 @@
         iv. 发起“拉取请求”（Pull Request）--> 同步之前确保都已经同步
         vi. 讨论，代码审核的过程
         vii. 分支内容合并到master
-
+      2）开源项目贡献流程
+        i. fork --> 把对方的项目做一个拷贝
+        ii. clone ---> 克隆到本地做修改
+        iii. commit --> 提交自己的版本
+        iv. Sync --> 同步到自己的远端
+        v. Pull requests(拉出一个请求) --> creat pull requset--> comment(--> 项目贡献方Merge pull request --> comment)
+        vi. 删除这个fork --> Settings --> Delete this repository --> 输入项目的名字确认
+        注意：如果只是简单的修改，可以点进文章也，直接修改
+    e. Github Issues
+        事物卡片（issues）--> 使用场景：脑子里没有成形的代码，需要讨论的（支持Markdown语法：```语言--达到高亮效果）
+   # 补：Github上的每一个项目仓库都有三套基础设置：
+      1. 通过github pages建立自己的网站
+      2. 开发自己的wiki，作为项目的知识库
+      3. 事物卡片（issues）
+    f. Github pages搭建自己的网站
+      
