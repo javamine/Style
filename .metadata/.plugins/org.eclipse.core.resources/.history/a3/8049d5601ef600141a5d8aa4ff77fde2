@@ -1,0 +1,18 @@
+package assemble.selectClass;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * 备选课程类
+ * @author asus
+ *
+ */
+public class ListTest {
+	List coursesToSelect;
+
+	public ListTest() {
+		this.coursesToSelect = new ArrayList();
+	}
+	
+}

@@ -1,0 +1,6 @@
+package assemble.selectClass;
+
+public class Course {
+	String id;
+	String name;
+}

@@ -1,0 +1,7 @@
+package assemble.selectClass;
+
+import java.util.List;
+
+public class ListTest {
+	List coursesToSelect;
+}

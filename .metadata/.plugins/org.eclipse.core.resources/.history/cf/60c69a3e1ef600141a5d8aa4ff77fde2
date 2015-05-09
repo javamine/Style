@@ -1,0 +1,13 @@
+package assemble.selectClass;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListTest {
+	List coursesToSelect;
+
+	public ListTest() {
+		this.coursesToSelect = new ArrayList();
+	}
+	
+}
