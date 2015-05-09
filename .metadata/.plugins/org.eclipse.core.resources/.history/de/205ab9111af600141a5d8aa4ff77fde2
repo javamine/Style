@@ -1,4 +1,4 @@
-# 集合的概述
+# 集合
 	1. 概念：现实生活中 --> 很多事物凑在一起;
 		在数学中 --> 具有共同属性的事物的总称
 		Java中 --> 是一种工具类，像是容器，存储任意数量的具有共同属相的对象
@@ -12,14 +12,5 @@
 		b. 数组只能通过下标访问元素，而且类型固定，而集合可以通过任意类型查找所映射的具体对象
 	4. java集合框架体系结构
 		a. Collection --> List(序列)->ArrayList(数组序列)、Queue(队列)->LinkedList(链表队列)、Set(集)->HashSet(Hash集)
-		       （List、Queue是排列有序，可重复的；而set无序的，不可重复的）
+			（List、Queue是排列有序，可重复的；而set无序的，不可重复的）
 		b. Map --> HashMap(Hash表)
-# Collection接口、子接口和实现类
-	1. Collection接口是List、Queue、Set的父接口
-	         里面定义了可操作List、Queue、Set的方法 --> 增删改查
-	2. ArrayList接口及实现类
-		a. List是有序并且可以重复的集合，被称为序列
-		b. List可以精确的控制每一个元素的插入位置，或者删除某一个元素的位置
-		c. ArrayList --> 数组序列，是List重要的实现类
-		d. ArrayList底层使用数组来实现的
-	注：小例子来实现功能 ---> 模拟学生选课功能
