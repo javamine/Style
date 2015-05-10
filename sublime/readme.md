@@ -90,9 +90,9 @@ Markdown支持两种标题的语法
 3. 行内标记
 ---------------
 ### a. 强调标记
-<table class="table table-bordered table-striped table-condensed">
+<table class="table table-bordered table-striped table-condensed" width='100%'>
 	<tr>
-		<td>单星号/单下划线</td>
+		<td width='50%'>单星号/单下划线</td>
 		<td>*斜体*</td>
 	</tr>
 	<tr>
