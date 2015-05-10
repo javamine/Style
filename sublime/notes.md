@@ -10,3 +10,7 @@
 + `Ctrl+D`多行游标 --> 每按一次选择一个
 + `Ctrl+K`跳过一个文件
 + [总结]多行游标产生的方法：`Ctrl+D`、`Alt+F3`、`Ctrl+A和Ctrl+shift+L`、`shift和鼠标右键`
+3. 命令模式
+============
+* Tools->Command Palette…  打开命令模式
+* `shift+command+P`打开命令模式
