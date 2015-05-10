@@ -151,5 +151,22 @@ This is [an example][id] reference-style link.
 This is [an example][id] reference-style link.
 [id]: http://example.com/  "Optional Title Here"
 
-### f. 图片
+### e. 图片
+* 图片的写法和链接差不多，就是在前面多加一个`!`
 
+### f. 直接链接（扩展）
+
+```
+http://baidu.com 点击进入百度
+```
+http://baidu.com 点击进入百度
+
+**或者**
+```
+<https://github.com> 进入github
+```
+<https://github.com> 进入github
+
+4. 转义字符
+==============
+* 有些特殊符号如果要转义，可以在前面使用`\`
