@@ -67,6 +67,7 @@ Markdown支持两种标题的语法
 	    * test
 
 ### j. Bootstrap 提醒(par扩展) --> 生成Bootstrap alert 的展示效果,格式为：
+**注意**：github不支持此功能
 
 	[[alert(class=success)]]:
     Success
@@ -81,3 +82,10 @@ Markdown支持两种标题的语法
 	    This is alert message
 	[[alert(class=info,close)]]:
 	    This is an alert. It'll has a close button.
+
+3. 行内标记
+---------------
+### a. 强调标记
+
+||a||b||c||
+||a1||b1||c1||
