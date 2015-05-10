@@ -48,3 +48,19 @@ Markdown支持两种标题的语法
 
 ### f. 表格(par拓展)
 * 每一行表示一个表格行，字段之间使用`||`分隔
+
+### g. HTML段
++ 首行以`<`开始的将视为HTNL段
+
+### h. 文本段
++ 文本段可以由多行文本组成，以空行作为一个段落的结束。首字符不能是特殊的段落开始符。除首行外，第二行可以前面有空格
+
+### i. Bootstrap 标签页(par扩展)
+
+[[tabs(id=hello)]]:
+    ```
+    This is a test
+    ```
+[[tabs(id=world)]]:
+    * this is a list
+    * test
