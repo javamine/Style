@@ -42,11 +42,15 @@ Markdown支持两种标题的语法
 + 在一行中添加三个或者三个以上的`*`,`-`,`下划线`，但是不能有其他字符
 
 ### e. 定义段(par拓展)
+**注意**：github不支持此功能
+
 * 生成如`<dl><dt><dd>`的格式。
 * 首行应顶格，首字符不能是其它段的开始字符，如 *, +, -, # 
 * 最后以空格+--结束。 第二行开始为缩近段
 
 ### f. 表格(par拓展)
+**注意**：github不支持此功能
+
 * 每一行表示一个表格行，字段之间使用`||`分隔
 
 ### g. HTML段
@@ -58,7 +62,7 @@ Markdown支持两种标题的语法
 ### i. Bootstrap 标签页(par扩展) --> 类似于tab切换效果
 **注意**：github不支持此功能
 
-	[[tabs(id=hello)]]:
+    [[tabs(id=hello)]]:
 	    ```
 	    This is a test
 	    ```
@@ -86,15 +90,33 @@ Markdown支持两种标题的语法
 3. 行内标记
 ---------------
 ### a. 强调标记
-
 <table class="table table-bordered table-striped table-condensed">
 	<tr>
-		<td>1</td>
-		<td>2</td>
+		<td>单星号/单下划线</td>
+		<td>*斜体*</td>
+	</tr>
+	<tr>
+		<td>双星号/双下划线</td>
+		<td>**粗体**</td>
+	</tr>
+	<tr>
+		<td>三星号/三下划线</td>
+		<td>***粗斜体***</td>
+	</tr>
+	<tr>
+		<td>双波浪线</td>
+		<td>~~删除线~~</td>
+	</tr>
+	<tr>
+		<td>双尖号</td>
+		<td>文本^上标^</td>
+	</tr>
+	<tr>
+		<td>双逗号</td>
+		<td>文本<sub>下标</sub></td>
+	</tr>
+	<tr>
+		<td>倒单引号</td>
+		<td>`代码块`</td>
 	</tr>
 </table>
-
-|| *Year* || *Temperature (low)* || *Temperature (high)* ||
-|| 1900 || -10 || 25 ||
-|| 1910 || -15 || 30 ||
-|| 1920 || -10 || 32 ||
