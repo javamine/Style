@@ -93,3 +93,8 @@ Markdown支持两种标题的语法
 		<td>2</td>
 	</tr>
 </table>
+
+|| *Year* || *Temperature (low)* || *Temperature (high)* ||
+|| 1900 || -10 || 25 ||
+|| 1910 || -15 || 30 ||
+|| 1920 || -10 || 32 ||
