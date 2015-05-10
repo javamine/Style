@@ -55,12 +55,29 @@ Markdown支持两种标题的语法
 ### h. 文本段
 + 文本段可以由多行文本组成，以空行作为一个段落的结束。首字符不能是特殊的段落开始符。除首行外，第二行可以前面有空格
 
-### i. Bootstrap 标签页(par扩展)
+### i. Bootstrap 标签页(par扩展) --> 类似于tab切换效果
+**注意**：github不支持此功能
 
-[[tabs(id=hello)]]:
-    ```
-    This is a test
-    ```
-[[tabs(id=world)]]:
-    * this is a list
-    * test
+	[[tabs(id=hello)]]:
+	    ```
+	    This is a test
+	    ```
+	[[tabs(id=world)]]:
+	    * this is a list
+	    * test
+
+### j. Bootstrap 提醒(par扩展) --> 生成Bootstrap alert 的展示效果,格式为：
+
+	[[alert(class=success)]]:
+    Success
+	[[alert(class=error)]]:
+	    Error
+	[[alert(class=info)]]:
+	    Info
+	[[alert]]:
+	    Message
+	[[alert]]:
+	    #### Alert Title
+	    This is alert message
+	[[alert(class=info,close)]]:
+	    This is an alert. It'll has a close button.
