@@ -120,3 +120,36 @@ Markdown支持两种标题的语法
 		<td>`代码块`</td>
 	</tr>
 </table>
+
+### b. 代码标记
++ `<cod>`和 · ·
+
+### c. 行内HTML标记
++ 可以在行内直接使用HTML标记
+```
+这是一个<b>行内</b>标记。
+```
+效果：
+这是一个<b>行内</b>标记。
+
+### d. 链接
+* 行内：
+```
+[百度](http://baidu.com/ "百度")
+[github](https://github.com)
+```
+* 效果：
+[百度](http:baidu.com"百度")
+[github](https://github.com)
+
+* 或者
+
+```
+This is [an example][id] reference-style link.
+[id]: http://example.com/  "Optional Title Here"
+```
+This is [an example][id] reference-style link.
+[id]: http://example.com/  "Optional Title Here"
+
+### f. 图片
+
