@@ -87,5 +87,9 @@ Markdown支持两种标题的语法
 ---------------
 ### a. 强调标记
 
-||a||b||c||
-||a1||b1||c1||
+<table class="table table-bordered table-striped table-condensed">
+	<tr>
+		<td>1</td>
+		<td>2</td>
+	</tr>
+</table>
