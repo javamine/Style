@@ -14,3 +14,10 @@
 ============
 * Tools->Command Palette…  打开命令模式
 * `shift+command+P`打开命令模式
+* `Set Syntac:编程语言` 设置语言环境，因为支持模糊匹配，所以也可以是`sy编程语言`
+4. 综合应用
+===========
+* `Ctrl+Enter` : next new line
+* `Ctrl+shift+Enter` : pre new line
+* `Emmet` : ctrl + e,神奇的补全
+* `ctrl+}/]` : 缩进
